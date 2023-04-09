@@ -1,0 +1,446 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body{
+    padding-top: 50px;
+    margin:0 40px auto;
+    
+}
+/* CGExer-1: Create the below Layout using FlexBox or Grid*/
+.header{
+   /* background-color: whitesmoke;
+    height: 500px;
+    width: 95%;
+    margin: 30px;*/
+}
+
+.nav{
+    display: flex;
+    /*background-color: gray;
+    height: 400px;
+    width:100%;*/
+    padding:10px 50px;
+    
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+
+.nav1{
+    background-color: black;
+    color:white;
+    height:80px;
+    width:95%;
+    display: flex;
+   
+    padding:20px 50px;
+    align-items: end;
+  justify-content: right;
+    
+}
+.nav2{
+    justify-content: center;
+    align-items: center;
+}
+.nav2 a{
+    text-decoration: none;
+   padding: 15px;
+   
+   color:white;
+   font-weight: bold;
+   font-size: 1rem;
+  
+   
+}
+
+.button0{
+   padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+   /* font-size: 1rem;*/
+    background-color:#159895;
+    color: white;
+
+}
+
+.nav21{
+    display: flex;
+    /*background-color: gray;
+    height: 400px;
+    width:100%;*/
+    padding:10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav4{
+    background-color: black;
+    color:white;
+    height:80px;
+    width:95%;
+    display: flex;
+   
+    padding:30px 20px;
+    align-items: center;
+  justify-content:center;
+    
+}
+
+.nav5 a{
+    text-decoration: none;
+   padding: 15px;
+   color:white;
+   font-weight: bold;
+   font-size: 1rem;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.button1{
+   padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    /*font-size: 1rem;*/
+   background-color:#159895;
+    color: white;
+    margin-left: 400px;
+    
+    
+    
+}
+.nav31{
+    display: flex;
+    /*background-color: gray;
+    height: 400px;
+    width:100%;*/
+    padding:10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav7{
+    background-color: black;
+    color:white;
+    height:80px;
+    width:95%;
+    display: flex;
+   
+    padding:20px 50px;
+   /* align-items: end;
+  justify-content: right;*/
+    
+}
+.nav8{
+   
+}
+.nav8 a{
+    text-decoration: none;
+   padding: 15px;
+   color:white;
+   font-weight: bold;
+   font-size: 1rem;
+   
+}
+.nav9{
+
+}
+.button2{
+   padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    /*font-size: 1rem;*/
+    background-color:#159895;
+    color: white;
+
+}
+
+/*CGExer-2: Create the below Layout using FlexBox or Grid*/
+.cg2{
+    /*background-color: whitesmoke;
+    height: 500px;
+    width: 85%;
+   margin: 20px;*/
+   justify-content: center;
+   align-items: center;
+}
+.card-title{
+    width:300px;
+    height:250px;
+}
+.card-body{
+    width:300px;
+    height:150px;
+    background-color:whitesmoke;
+}
+.bu1{
+    background-color: #159895;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.des img{
+    display:flex;
+width:50px;
+height:50px;
+border-radius: 50px;
+}
+.card-des1{
+    display:flex;
+    gap:10px;
+}
+.des1{
+    text-align: center;
+    padding-top: 15px;
+}
+.card-des{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.des{
+    padding-left: 10px;
+}
+.card-footer{
+padding: 5px;
+}
+
+.card{
+   display: flex;
+   flex-direction: column; 
+   padding: 10px;
+   
+   /*padding-top: 40px;
+   padding-left: 40px;*/
+}
+
+.pic1{
+    display:flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+/*CGExer-5: Create the below Layout using both FlexBox and Grid*/
+.content{
+ 
+  justify-content: center;
+  align-items: center; 
+  margin:20px 250px;
+ 
+}
+
+
+.con1{
+    height:300px;
+    width:80%;
+    background-image: url(bongo.jpeg);
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    
+}
+
+.a{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color:white;
+    padding-top: 70px;
+}
+
+.col{
+    color:orange;
+}
+
+.black{
+    background-color: black;
+    height:140px;
+    border-radius: 15px;
+   
+}
+.b{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #159895;
+}
+
+.left{
+    
+}
+.c{
+    font-weight: bold;
+    color:white;
+    font-size: 1.3rem;
+}
+.d{
+    color:white;
+}
+.e{
+ padding: 10px;  
+ border-radius: 50px; 
+ background-color: orange;
+ color:black;
+ font-weight: bold;
+ margin-left: 250px;
+ font-size: 1rem;
+}
+
+.last{
+    display: flex;
+   padding-top: 50px;
+   padding-left: 30px;
+   
+}
+.middle{
+    padding-left: 10px;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+/*CGExer-4: Create the below Layout using both FlexBox and Grid*/
+
+.cg4{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img4{
+    display:flex;
+    width: 70px;
+    height:70px;
+   border-radius: 50px;
+   
+}
+
+.aa{
+    padding-top: 50px;
+    padding-left: 90px;
+    
+}
+
+.bb{
+   padding-top: 50px;
+   padding-left: 20px;
+   
+    
+    font-size: 1.2rem;
+    color: gray;
+    
+}
+
+.cc{
+    padding-top: 50px;
+    padding-left: 50px;  
+    margin-left: 400px; 
+}
+
+.cg{
+    display: flex;
+    padding:10px;
+    border-radius: 10px;
+    background-color:#159895;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.lima{
+    color: black;
+    font-weight: bold;
+   font-size: 1.5rem; 
+}
+
+.sesh{
+   /* margin:5px;
+    padding: 5px;
+    background-color: whitesmoke;
+    width:70%;*/
+   
+    
+}
+
+
+/*CGExer-3: Create the below Layout using both FlexBox and Grid*/
+
+.cg3{
+   background-color: black;
+    height: 950px;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 170px;
+    padding-top: 20px;
+}
+
+.part1{
+    position: relative;
+   
+}
+
+.part1 p{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    height:30px;
+    width:60px;
+    text-align: center;
+    padding: 6px;
+    /*border-radius: 10px;*/
+    position: absolute;
+    bottom:16.5px;
+    left:350px;
+    
+}
+
+.progress{
+    background-color: gray;
+    width:100%;
+    height:10px;
+    position:absolute;
+    bottom:5px;
+
+  
+}
+
+.bar1{
+    width:25%;
+    background-color: red;
+    height:10px;
+    
+}
+
+.far{
+    border-radius: 12px;
+   
+    position: relative;
+}
+.rel{
+    position: relative;
+   
+}
+.hmm{
+    color:white;
+}
+
+.final{
+    display: flex;
+    padding: 20px 40px;
+}
+.part2{
+    line-height: 2;
+    padding-left: 30px;
+}
